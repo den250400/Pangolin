@@ -30,8 +30,8 @@
 #include <pangolin/video/iostream_operators.h>
 #include <pangolin/utils/file_utils.h>
 #include <pangolin/video/drivers/ffmpeg.h>
-#define CODEC_CAP_DELAY 0x0020
-#define CODEC_FLAG_GLOBAL_HEADER 0x00400000
+#define AV_CODEC_CAP_DELAY 0x0020
+#define AV_CODEC_FLAG_GLOBAL_HEADER 0x00400000
 // Some versions of FFMPEG define this horrid macro in global scope.
 #undef PixelFormat
 
